@@ -1,1 +1,10 @@
 @import "https://bootswatch.com/4/superhero/bootstrap.min.css";
+
+body {
+  padding-bottom: 20px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
