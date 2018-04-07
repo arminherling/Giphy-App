@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-gif-viewer',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gif-viewer.component.css']
 })
 export class GifViewerComponent implements OnInit {
+  @Input() imgUrl: string;
 
   constructor() { }
 
