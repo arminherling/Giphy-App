@@ -13,6 +13,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 import { ROUTES } from './app.routes';
 
+import { GiphyService } from './giphy.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,9 @@ import { ROUTES } from './app.routes';
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [],
+  providers: [
+    GiphyService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
