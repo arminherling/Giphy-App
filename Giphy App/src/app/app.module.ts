@@ -14,6 +14,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ROUTES } from './app.routes';
 
 import { GiphyService } from './giphy.service';
+import { GifViewerComponent } from './gif-viewer/gif-viewer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GiphyService } from './giphy.service';
     HomeComponent,
     TrendingComponent,
     SearchComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    GifViewerComponent
   ],
   imports: [
     BrowserModule,
